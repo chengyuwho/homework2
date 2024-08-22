@@ -59,7 +59,7 @@ for i in range(q.qsize()):
     print("循环打印队列值：",q.get())
 ```
 結果
-![01]()
+![01](https://github.com/chengyuwho/homework2/blob/d79805ea01de6b8ec607428ba1dd3760f60910a7/queue%E7%B5%90%E6%9E%9C.png)
 # LifoQueue（LIFO）
 導入queue模組的Queue類
 ```
