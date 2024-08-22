@@ -96,7 +96,7 @@ for i in range(lq.qsize()):
     print("循环打印后进先出队列值：",lq.get())
 ```
 結果
-![01]()
+![01](https://github.com/chengyuwho/homework2/blob/238d79cd8ad174b2a1baf4425cad01141c29413a/lifoqueue%E7%B5%90%E6%9E%9C.png)
 # PriorityQueue
 數據越小優先順序越高，也就是數據越小優先獲取到
 創建優先順序佇列
