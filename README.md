@@ -58,6 +58,8 @@ print("获取队列的大小：",q.qsize())
 for i in range(q.qsize()):
     print("循环打印队列值：",q.get())
 ```
+結果
+![01]()
 # LifoQueue（LIFO）
 導入queue模組的Queue類
 ```
@@ -93,6 +95,8 @@ print("获取队列的大小：",lq.qsize())
 for i in range(lq.qsize()):
     print("循环打印后进先出队列值：",lq.get())
 ```
+結果
+![01]()
 # PriorityQueue
 數據越小優先順序越高，也就是數據越小優先獲取到
 創建優先順序佇列
@@ -120,3 +124,5 @@ print("获取队列的大小：",pq.qsize())
 for i in range(pq.qsize()):
     print("循环打印优先级队列值：",pq.get())
 ```
+結果
+![01]()
