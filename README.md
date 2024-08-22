@@ -59,6 +59,7 @@ for i in range(q.qsize()):
     print("循环打印队列值：",q.get())
 ```
 結果
+
 ![01](https://github.com/chengyuwho/homework2/blob/d79805ea01de6b8ec607428ba1dd3760f60910a7/queue%E7%B5%90%E6%9E%9C.png)
 # LifoQueue（LIFO）
 導入queue模組的Queue類
@@ -96,6 +97,7 @@ for i in range(lq.qsize()):
     print("循环打印后进先出队列值：",lq.get())
 ```
 結果
+
 ![01](https://github.com/chengyuwho/homework2/blob/238d79cd8ad174b2a1baf4425cad01141c29413a/lifoqueue%E7%B5%90%E6%9E%9C.png)
 # PriorityQueue
 數據越小優先順序越高，也就是數據越小優先獲取到
@@ -125,4 +127,5 @@ for i in range(pq.qsize()):
     print("循环打印优先级队列值：",pq.get())
 ```
 結果
-![01]()
+
+![01](https://github.com/chengyuwho/homework2/blob/c279d99f5939e9d0bbcfc4a143820b7a495f620c/priorityqueue%E7%B5%90%E6%9E%9C.png)
